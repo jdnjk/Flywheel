@@ -9,6 +9,6 @@ public final class Flywheel {
 	}
 
 	public static ResourceLocation rl(String path) {
-		return new File(resourceLocation)(ID, path);
+		return new ResourceLocation(ID, path);
 	}
 }
