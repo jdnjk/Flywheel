@@ -7,7 +7,4 @@ public final class Flywheel {
 
 	private Flywheel() {
 	}
-
-	public static ResourceLocation rl(String path) {
-	}
 }
