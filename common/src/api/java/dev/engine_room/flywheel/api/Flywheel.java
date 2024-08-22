@@ -1,6 +1,6 @@
 package dev.engine_room.flywheel.api;
 
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.resources.ResourceLocation;
 
 public final class Flywheel {
 	public static final String ID = "flywheel";
@@ -8,7 +8,7 @@ public final class Flywheel {
 	private Flywheel() {
 	}
 
-	public static ResourceLocation resourcelocation(String path) {
-		return new ResourceLocation(ID, path);
+	public static ResourceLocation rl(String path) {
+		return ResourceLocation.fromNamespaceAndPath(ID, path);
 	}
 }
